@@ -35,12 +35,12 @@ header {
     padding: 0px 24px;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
 }
 
-nav .mainP {
+header nav .mainP {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,18 +48,18 @@ nav .mainP {
     letter-spacing: 2px;
 }
 
-nav ul {
+header nav ul {
     display: flex;
     list-style-type: none;
 }
 
-nav ul li {
+header nav ul li {
     margin: 0px 7px;
     align-items: center;
     padding: 8px 8px;
 }
 
-nav ul li a {
+header nav ul li a {
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 2px;
@@ -69,4 +69,10 @@ nav ul li a {
 
 h2 {
     font-size: 35px;
+}
+
+@media (max-width: 1100px) {
+    aside {
+        display: none;
+    }
 }

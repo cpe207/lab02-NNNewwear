@@ -1,4 +1,37 @@
-img {
-    border-radius: 8px;
+
+main .position-image {
+    position: fixed;
+    top: 155px;
+    left: 125px;
+}
+
+/*img {
+    border-radius: 100px;
     max-height: 400px;
+}*/
+
+img {
+    max-height: 400px;
+}
+
+main .position-name {
+    position: fixed;
+    top: 605px;
+    left: 113px;
+    color: rgb(190, 166, 42);
+}
+
+aside .position-border {
+    position: fixed;
+    top: 400px;
+    right: 300px;
+    border-style: solid;
+    color: rgb(190, 166, 42);
+    border-radius: 1px;
+    padding: 20px;
+    text-align: center;
+}
+
+aside .text {
+    color: rgb(190, 166, 42);
 }
